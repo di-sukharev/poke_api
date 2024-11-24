@@ -1,5 +1,5 @@
-import Pokemon from "./pokemon/Pokemon";
-import Generation from "./generation/Generation";
+import Pokemon from "./src/pokemon/Pokemon";
+import Generation from "./src/generation/Generation";
 
 const sdk = {
   Pokemon,

@@ -1,5 +1,5 @@
 import { expect, test, describe, beforeAll } from "bun:test";
-import Pokemon from "../pokemon/Pokemon";
+import Pokemon from "../src/pokemon/Pokemon";
 
 describe("Pokemon", () => {
   let pikachu: Pokemon;

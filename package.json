@@ -7,5 +7,14 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "files": [
+    "out/sdk.js"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "dev": "bun run index.ts",
+    "build": "bun build ./index.ts --target=node --minify --outdir=out --outfile=sdk.js",
+    "publish": "bun run build && npm publish --tag latest"
   }
 }

@@ -1,6 +1,6 @@
 # SE Poké API
 
-A strongly-typed Pokémon API wrapper for TypeScript/JavaScript.
+An almost good and type-safe Pokémon API wrapper for TypeScript/JavaScript one is able to do in 1 hour.
 
 ## Installation
 
@@ -88,6 +88,12 @@ bun run index.ts
 
 ```bash
 bun test
+```
+
+## Publishing
+
+```bash
+bun run publish
 ```
 
 ## License
